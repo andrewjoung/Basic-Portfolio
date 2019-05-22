@@ -51,7 +51,7 @@ p {
 }
 
 .content {
-    height:400px;
+    height:fit-content;
     background-color:#ffffff;
 }
 
@@ -61,6 +61,59 @@ p {
     color:#4aaaa5;
 }
 
+.flexContainer {
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    width:75%;
+    margin: 0 auto;
+}
+
+.flexItem {
+    height:200px;
+    margin:2%;
+    background-color:black;
+}
+
+.box1, .box2, .box3, .box4, .box5 {
+    flex-basis:40%;
+    position:relative;
+    background-size:cover;
+    background-position:center;
+}
+
+.box1 {
+    background-image:url("../images/image1.jpg");
+}
+
+.box2 {
+    background-image:url("../images/image2.jpg");
+}
+
+.box3 {
+    background-image:url("../images/image3.jpg");
+}
+
+.box4 {
+    background-image:url("../images/image4.jpg");
+}
+
+.box5 {
+    background-image:url("../images/image5.jpg");
+}
+
+.imageText {
+    position: absolute;
+    bottom: 0;
+    background-color: #4aaaa5;
+    width: 100%;
+    height: 15%;
+    text-align: center;
+    padding-top: 5%;
+    color: #ffffff;
+}
+
 #header {
     background-color:#ffffff;
     height:74px;
@@ -68,9 +121,10 @@ p {
 }
 
 #mainContent {
-    height:500px;
+    height:fit-content;
     background-image:url('../images/crossline-lines.png');
     padding-top:30px;
+    padding-bottom:30px;
     border-bottom: solid 4px #4aaaa5;
 }
 
@@ -86,3 +140,6 @@ p {
     background-color:#666666;
 }
 
+.portfolioContent {
+    height: 800px;
+}
