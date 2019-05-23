@@ -141,6 +141,10 @@ p {
     color: white;
 }
 
+.push {
+    height:100px;
+}
+
 #header {
     background-color:#ffffff;
     height:74px;
@@ -165,6 +169,7 @@ p {
 #footer {
     height:150px;
     background-color:#666666;
+
 }
 
 .portfolioContent {
